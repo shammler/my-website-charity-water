@@ -17,7 +17,7 @@ body {
   background-image: url(https://d35lvrk9fb4ftj.cloudfront.net/eyJidWNrZXQiOiJkcm9wbWFyayIsImtleSI6IjUyMDQzLzkzYmVmY2FhNTA4YjVjN2RjZTM0NzQwNjEyOWVlMjVjMzI0ZTAzYzg4YmE1NzAxM2UzZjc4MzExOGQzZjg0YjEvcHJldmlldy80ODk4X0V0aGlvcGlhXzIwMTlfQ0ctLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjAwLCJoZWlnaHQiOjYwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfX19); /* Replace with real image */
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: center;
   height: 500px;
   position: relative;
   display: flex;
@@ -67,4 +67,34 @@ p {
 
 .btn:hover {
   background-color: #fbc02d;
+}
+.donate {
+  background-color: #f5f5f5;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.donate h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.donate p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+form input, form button {
+  padding: 12px;
+  width: 80%;
+  max-width: 400px;
+  margin: 10px auto;
+  display: block;
+  font-size: 1rem;
+}
+
+html {
+  scroll-behavior: smooth;
 }
